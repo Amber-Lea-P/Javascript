@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Js Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script type="module">
+      //import * as mod from "./module1.js";
+      import { num, hello } from "./module1.js";
+      import { hello3 } from "./module2.js";
+      // for default no need of {} and you can uase any name
+      // if we have only export then use {} ===> can hold a function / value.
+
+      // in case of default we can use any name while importing it.
+
+      // mod : hello function and num variable
+      // mod.num
+      // mod.hello()
+
+      console.log("value is " + num);
+      hello("advik");
+      hello3("hello");
+    </script>
+  </head>
+  <body></body>
+</html>

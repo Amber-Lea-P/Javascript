@@ -1,0 +1,16 @@
+{
+  "name": "interviewquestionarrowfunctions",
+  "version": "1.0.0",
+  "description": "Interview Code questions",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Amber",
+  "license": "ISC",
+  "type":"module"
+}
